@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#251062;
+    color:white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.first{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first img{
+    height: 58px;
+    width: 58px;
+    margin-bottom: 1rem;
+}
+.second{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    background-color: white;
+
+}
+.second input{
+    width:91%;
+    /* border: 2px solid red; */
+    height: 25px;
+    text-align: left;
+    border: none;
+
+}
+.second i
+{
+   color:black;
+    cursor: pointer;
+
+}
+.second i:hover{
+    color:blue;
+}
+
+.third button{
+    width: 100px;
+    height: 22px;
+    margin-top: 20px;
+    color: black;
+}
+.third button:hover{
+    color:blue;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 20%;
+    border: none;
+    margin-bottom: 1rem;
+    height: 28px;
+    background-color: rgb(43, 8, 181);
+}
+.heading{
+    width: 80%;
+    margin-left: 0.3rem;
+}
+.img{
+    width: 20%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-right:0.5rem;
+}
+.fa-trash-alt{
+    margin-left: 0.5rem;
+}
+i:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    .second i{
+        margin-right: 0.3rem;
+    }
+    .second{
+        width: 30%;
+    }
+    .third button{
+        margin-right: 0.5rem;
+        margin-top: 10px;
+    }
+    .fourth{
+    width: 30%;
+    }
+   
+        
+    
+}
+@media only screen and (max-width:768px)
+{
+    .second i{
+        margin-right: 0.3rem;
+    }
+    .second{
+        width: 30%;
+    }
+    .third button{
+        margin-right: 0.5rem;
+        margin-top: 10px;
+    }
+    .fourth{
+    width: 30%;
+    }
+    .fourth i{
+        margin-left: 0.5rem;
+    }
+}
+@media only screen and (max-width:426px)
+{
+    .second i{
+        margin-right: 0.3rem;
+    }
+    .second{
+        width: 40%;
+    }
+    .third button{
+        margin-right: 0.5rem;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .fourth{
+    width: 40%;
+    }
+    .fourth .fa-trash-alt{
+        margin-right:0.5rem;
+    }
+    .first img{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media only screen and (max-width:376px)
+{
+    .first p{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:326px)
+{
+    .first p{
+        font-size: 0.8rem;
+    }
+    .second{
+        width: 50%;
+        
+    }
+    .fourth{
+        width: 50%;
+    }
+}
